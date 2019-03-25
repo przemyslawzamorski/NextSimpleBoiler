@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{J8Xi:function(n,o,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/about/About",function(){var n=w("+SVC");return{page:n.default||n}}])}},[["J8Xi",1,0]]]);

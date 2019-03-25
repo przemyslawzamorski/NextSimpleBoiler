@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{"7E5O":function(n,o,u){"use strict";u.r(o);var t=u("+SVC");u.d(o,"default",function(){return t.default})},KFHo:function(n,o,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/about",function(){var n=u("7E5O");return{page:n.default||n}}])}},[["KFHo",1,0]]]);

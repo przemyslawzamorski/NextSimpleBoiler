@@ -1,5 +1,6 @@
 // -- WEBPACK
 const webpack = require('webpack')
+const SimpleProgressWebpackPlugin = require('simple-progress-webpack-plugin')
 // -- SYSTEM
 const { NODE_ENV } = process.env
 const PRODUCTION = NODE_ENV === 'production'
@@ -13,6 +14,7 @@ module.exports = {
     webpack (config, { defaultLoaders, dev, ...options }) {
         // Load all envs to next
         config.plugins.push(new webpack.EnvironmentPlugin(Object.keys(process.env)))
+        config.plugins.push(new SimpleProgressWebpackPlugin())
         return config
     }
 }
